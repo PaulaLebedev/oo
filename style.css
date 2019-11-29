@@ -1,6 +1,5 @@
  /* Container holding the image and the text */
 .container {
-    position: relative;
     text-align: center;
     color: rgb(24, 21, 21)63, 148, 148);
   }
@@ -35,25 +34,29 @@
   /* Centered text */
   .Grayscale {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 33%;
     font-family: 'Varela Round';
-    font-size: 3.5rem;
-    line-height: 3.5rem;
+    font-size: 100px;
+    line-height: 100px;
     letter-spacing: 0.8rem;
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-    #-webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    text-transform: uppercase!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    font-weight: 500;
+    line-height: 1.2;
+    
   }
   .Bootstrap {
     position: absolute;
-    top: 65%;
-    left: 50%;
+    top: 70%;
+    left: 45%;
     font-family: 'Varela Round';
-    font-size: 1rem;
-    max-width: 20rem;
+    font-size: 1.25rem;
+    max-width: 30rem;
+    color: rgba(255,255,255,.5)!important;
+    line-height: 1.2;
 }
-  .masthead h2 {
-    max-width: 20rem;
-    font-size: 1rem;
-  }
