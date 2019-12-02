@@ -1,37 +1,9 @@
- /* Container holding the image and the text */
+
 .container {
     text-align: center;
     color: rgb(24, 21, 21)63, 148, 148);
   }
-  /* Bottom left text */
-  .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-  }
-  
-  /* Top left text */
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
-  
-  /* Top right text */
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-  
-  /* Bottom right text */
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
-  
-  /* Centered text */
+ 
   .Grayscale {
     position: absolute;
     top: 45%;
@@ -53,10 +25,54 @@
   .Bootstrap {
     position: absolute;
     top: 70%;
-    left: 45%;
+    left: 41%;
     font-family: 'Varela Round';
     font-size: 1.25rem;
     max-width: 30rem;
     color: rgba(255,255,255,.5)!important;
     line-height: 1.2;
+    font: Nunito;
+}
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: white;
+  font-size: 32px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 16px;
+  color: rgba(255,255,255,.5)
+  
+}
+.img-fluid {
+  max-width: 100%;
+  width: 930px;
+  height: 262px;
+  padding-left: 300px;
+  vertical-align: middle;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #64a19d;
+}
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%)
+
 }
